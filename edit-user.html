@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit User Information / Twitter</title>
+    <link rel="icon" href="./images/twitter-icon.svg" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/signup-page.css" />
+  </head>
+  <body>
+    <div class="fullpage">
+      <img src="./images/twitter-icon.svg" alt="twitter logo" class="logo" />
+      <form class="form">
+        <h1>Edit User Information</h1>
+      
+        <fieldset class="inp-area">
+          <input type="text" name="firstName" id="firstName" required />
+          <label for="firstName"><span>First Name</span></label>
+        </fieldset>
+        <fieldset class="inp-area">
+          <input type="text" name="lastName" id="lastName" required />
+          <label for="lastName"><span>Last Name</span></label>
+        </fieldset>
+        <fieldset class="inp-area">
+          <input type="email" name="email" id="email" required />
+          <label for="email"><span>Email</span></label>
+        </fieldset>
+        <div class="btn-area">
+          <button type="submit" class="main-btn"><span>Save</span></button>
+        </div>
+      </form>
+      <footer>
+        <div class="footer-content">
+          <a href="./forgot-password-page.html" class="text-footer">Need to change your password? Click here</a>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="./scripts/edit-user.js"></script>
+  </body>
+</html>
